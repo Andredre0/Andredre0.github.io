@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient( rgb(175, 175, 131), rgb(118, 129, 118),rgb(79, 79, 83));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    letter-spacing: 1px;
+}
+.objectives{
+    columns: 3;
+}
+.activities{
+    columns: 2;
+}
+h3 {
+    text-align: center;
+  }
+  .container{
+    animation: transitionIn 0.5s;
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+        
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+button{
+    float:right;
+    position: fixed;
+    color:  rgb(71, 70, 68);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    right: 2.1rem;
+}   
