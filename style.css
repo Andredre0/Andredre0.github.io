@@ -1,5 +1,5 @@
 *{
-    padding: 0 ;
+    padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
     
     /*position: fixed;*/
 
-}
+} 
 .logo{
     text-indent: -9999999px;
     background: url(img/cropped_logo_150x100.jpg);
