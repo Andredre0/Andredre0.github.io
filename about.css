@@ -2,8 +2,6 @@ body{
     margin: 2%;
     /*background-image: linear-gradient( rgb(175, 175, 131), rgb(118, 129, 118),rgb(79, 79, 83));*/
     background-image: url(img/G_VMJ8755\ copy.jpg);
-    width: auto;
-    height: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -17,9 +15,8 @@ body{
     color: black;
     padding: 40px;
     text-align: center;
-    background: rgba(150, 134, 134, 0.7);  
+    background: rgba(150, 134, 134, 0.6);  
     text-shadow: 2px 2px 4px #5f5555; 
-    font-size: 20px;
     
 }
 /*.border .activities{
@@ -73,10 +70,10 @@ nav ul li a:hover{
     transition: .4s;
 }
 .objectives{
-    text-align: left;
+    columns: 3;
 }
 .activities{
-    text-align: left;
+    columns: 2;
     
 }
 h3 {
