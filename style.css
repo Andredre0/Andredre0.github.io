@@ -24,7 +24,7 @@ ul{
         font-size: 10px;
     } 
     ul li ul.dropdown{
-        width: 50%;
+        width: 100%;
         color: rgb(182, 165, 139);
         position: absolute;
         z-index: 999;
@@ -35,7 +35,7 @@ ul{
     }
     ul li:hover ul.dropdown{
         display: block;
-        font-size: 15px;
+        font-size: 5px;
     }
     
 .homepage{
@@ -47,6 +47,7 @@ ul{
 } 
 .logo{
     text-indent: -9999999px;
+    background: url(img/cropped_logo_150x100.jpg);
     width: 150px;
     height: 100px;
     
