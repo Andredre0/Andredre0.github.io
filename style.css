@@ -37,6 +37,11 @@ ul{
         display: block;
         font-size: 5px;
     }
+     img.QR{
+        display: block;
+        position: relative;
+        padding-top: 20px;
+    }
     
 .homepage{
     height: 100vh;
